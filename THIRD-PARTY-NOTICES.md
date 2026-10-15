@@ -123,6 +123,11 @@ THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   and its overview window come from Modrinth (https://modrinth.com) and belong to their authors. They
   are shown as Modrinth serves them and are not part of FMG Client. Modpacks and their mods are
   downloaded from Modrinth when you install them, under their own licenses.
+- **The Minecraft 26.3 beta's mods** (launcher 1.3.0) are not in the installer either: when you play the
+  beta, the launcher downloads the 26.3 versions of the mods listed above (the ones that have one) from
+  Modrinth's own servers, checks each file against the copy FMG Client was tested with, and puts them in
+  the beta's own game folder. They are the authors' original files, under their own licenses as listed
+  above.
 - **e4mc** (https://modrinth.com/mod/e4mc, by Skye, **MIT**) is not in the installer: the launcher
   downloads it from Modrinth when you switch world hosting on, and its relay (e4mc.link) carries the
   connection while you host.

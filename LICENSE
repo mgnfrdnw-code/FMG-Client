@@ -1,5 +1,5 @@
 FMG Client License
-Version 1.4, 7 October 2026
+Version 1.5, 14 October 2026
 
 Copyright (c) 2026 FMG-PLUGINS. All rights reserved.
 
@@ -10,8 +10,10 @@ Together these are called "the Software" below. "You" means the person using it.
 
 FMG Client is free. You get it without paying anything, and this license tells you what you may
 and may not do with it. The FMG Client Terms of Service (TERMS-OF-SERVICE.md, also shown in the
-launcher) add the rules for taking part in the online service; you agree to both before you use
-the launcher.
+launcher) add the rules for taking part in the online service. You agree to both before you use
+the launcher - again each time it is installed or reinstalled, and with every new version of the
+FMG Launcher. Sections 8 to 10 below limit the developers' responsibility as far as the law allows;
+please read them.
 
 
 1. WHAT YOU MAY DO
@@ -43,13 +45,17 @@ the launcher.
    a) Coins are a free, just-for-fun points system. They cannot be bought with real money, and
       they cannot be sold, traded, transferred, cashed out or exchanged for money or anything of
       real-world value. The same goes for cosmetics, seasonal ones included.
-   b) The games in the launcher (Blackjack, Roulette, Rocket, Penguin, Raining Money) are played
-      with these coins only. No real money is ever wagered, won or lost.
+   b) The games in the launcher (Blackjack, Roulette, Rocket, Penguin, Raining Money, Plinko and the
+      seasonal event games) are played with these coins only. No real money is ever wagered, won or
+      lost.
    c) Coins and cosmetics are not your property. FMG-PLUGINS may change prices, items, perks, seasons
       and game rules, and may correct or reset balances, for example after a bug or when coins were
       gained by breaking section 2 f). Seasonal cosmetics are only sold during their season; the
       ones you bought stay in your locker. Perks are bought with coins and last the days shown.
-      Admins may send coins or cosmetics to players as gifts; the player gets a notification.
+      Admins may send coins or cosmetics to one player or to everyone as gifts, and may reset a
+      player's coins, cosmetics or a single cosmetic; the player gets a notification. Badges (free
+      styles and premium ones bought with coins) are cosmetics too and are seen by other FMG Client
+      players.
    d) Pictures you upload for a cape or a shield, shield designs you make and skins you wear must be
       yours or used with permission, and must not be offensive, hateful, sexual or otherwise
       inappropriate. They are visible to other FMG Client players and may be removed at any time.
@@ -79,11 +85,11 @@ the launcher.
       1.3 it also keeps notifications for you (gifts, coins from an admin, a ban), the perks you
       bought, a ban from cosmetics if there is one, and - for three days after you change your skin
       with FMG Client - the textures.minecraft.net address of that skin, so FMG Client players see
-      it before every server does. Your IP address reaches it with each request, as with any web
-      server; it is not stored in its database. FMG Client collects no telemetry: no location, no
-      hardware or network details, no browsing data, nothing about what else is on your PC. Admins
-      can see only names, coins and whether an account is banned from cosmetics. Nothing is sold or
-      given to anyone else.
+      it before every server does. Since version 1.4 it keeps the badge you picked (a free style and
+      its colour, or a premium badge you own). Your IP address reaches it with each request, as with
+      any web server; it is not stored in its database. Admins can see names, coins, what an account
+      owns, when it last played and whether it is banned from cosmetics - nothing else. Nothing is
+      sold or given to anyone else.
    c) The launcher never sees your Microsoft password: you sign in on Microsoft's own page. Your
       login tokens are only sent to Microsoft and Mojang, never to the FMG Cosmetics server or
       anyone else. Signing in to the cosmetics server sends Mojang's public certificate for your
@@ -128,7 +134,22 @@ the launcher.
       game and page you are on in the launcher. Since version 1.3 the game shows "FMG Client" there
       too while the launcher is closed (Right Shift > Discord Status turns that off). Both only talk
       to the Discord app running on your PC; nothing is sent while it is off or Discord is closed.
-   h) Access may be removed for anyone who breaks this license.
+   h) Anonymous statistics (since version 1.5 of this license, FMG Launcher 1.3): only if you switch
+      them on yourself - with their own tick box on the agreement screen, which is empty until you
+      tick it, or in Settings > Launcher - the launcher sends the FMG Cosmetics server a short report
+      about your PC and how FMG Client's features are used: the versions of the FMG Launcher, the FMG
+      Client mod, the S.T.A.L.K.E.R. 2 tab and Minecraft; the Windows version and build; the
+      processor model with its cores and threads; memory in whole gigabytes; the graphics card model
+      and its video memory; screen sizes and scaling; and plain counts of feature use. It carries a
+      random install ID made on your PC - not your account, name, location, PC name, files, browsing
+      or anything else. Reports are sent when the launcher starts and at most every 30 minutes; the
+      server keeps only the newest per install and deletes it after 120 days without a new one; admins
+      see only totals. Switching it off deletes your report from the server and the install ID from
+      your PC. The legal basis is your consent (Art. 6 (1) (a) GDPR, Section 25 (1) TDDDG), which you
+      can withdraw at any time. Details: Terms of Service, section 7.
+   i) Streamer Mode (Settings > Launcher) hides the town for the weather, account details and IDs in
+      the launcher while you share your screen. It changes nothing that is sent anywhere.
+   j) Access may be removed for anyone who breaks this license.
 
 
 5. THIRD-PARTY SOFTWARE
@@ -162,20 +183,41 @@ the launcher.
    use.
 
 
-8. NO WARRANTY
+8. NO WARRANTY, AND SECURITY
 
-   The Software is provided "as is", without any warranty of any kind, express or implied,
-   including that it works without errors, that it suits a particular purpose, or that it does not
-   infringe anyone's rights. You use it at your own risk.
+   a) The Software is provided "as is" and "as available", without any warranty or guarantee of any
+      kind, express or implied - including that it works without errors or interruptions, that it
+      is secure, that it is free of viruses or other harmful parts, that it suits a particular
+      purpose, that it stays available, or that it does not infringe anyone's rights.
+   b) The Software is a free hobby project made by private developers. It is not developed, tested
+      or run to the standards of commercial security software; no security audits or certifications
+      have been made, and FMG-PLUGINS does not invest in in-depth security measures or promise any.
+      Using it - downloading, installing, updating, signing in, installing mods and other content,
+      joining servers - can expose your PC, your data and your accounts to risks such as attacks,
+      malware, account takeover and data loss (Terms of Service, section 9). You use the Software
+      entirely at your own risk, and you are responsible for securing your PC, keeping backups and
+      protecting your accounts.
+   c) Beta versions of the Software (for example the Minecraft 26.3 beta profile) are for testing,
+      may not work, and may damage or lose data.
 
 
 9. LIMITATION OF LIABILITY
 
-   To the fullest extent the law allows, FMG-PLUGINS is not liable for any damage or loss that
-   comes from using or not being able to use the Software, including lost worlds, saves, settings,
-   mods, clips, coins or cosmetics. Where the law does not allow liability to be limited or excluded
-   (for example for intent, gross negligence, or injury to life, body or health), the legal rules
-   apply instead.
+   a) The Software is given free of charge, as a gift. To the fullest extent the law allows,
+      FMG-PLUGINS, its developers and contributors are not liable for any damage, loss or cost of any
+      kind that arises from or in connection with installing, using, updating or not being able to
+      use the Software or its services, whether direct or indirect and whatever the legal reason -
+      including attacks on your PC or accounts, hacking, malware, account or identity theft, misuse
+      of data by third parties, lost or damaged worlds, saves, settings, mods, clips, coins or
+      cosmetics, bans by servers, anticheats or publishers, harm caused by content or services of
+      others, downtime or discontinuation, and indirect or consequential damage.
+   b) Under German law the givers of a free gift are liable only for intent and gross negligence
+      (Sections 521 and 524 BGB apply accordingly). Where the law does not allow liability to be
+      limited or excluded - in particular for intent and gross negligence, for injury to life, body
+      or health, under the Product Liability Act (Produkthaftungsgesetz), for fraudulently concealed
+      defects and under an express guarantee - the legal rules apply instead.
+   c) As far as the law allows, you hold FMG-PLUGINS and its developers harmless from claims of
+      third parties that arise because you broke this license, the Terms of Service or the law.
 
 
 10. ENDING AND CHANGES
@@ -183,8 +225,10 @@ the launcher.
    a) If you break this license, your permission to use the Software ends automatically, and you
       must delete your copies.
    b) New versions of the Software may come with a new version of this license. The license that
-      comes with a release applies to that release.
-   c) If any part of this license is found invalid, the rest still applies.
+      comes with a release applies to that release; the launcher asks you to agree to it at every
+      installation and with every new version.
+   c) If any part of this license is found invalid, the rest still applies; the invalid part is
+      replaced by the valid rule that comes closest to what it meant.
    d) This license is governed by the laws of the Federal Republic of Germany. This does not take
       away any protection the consumer laws of your own country give you.
 
