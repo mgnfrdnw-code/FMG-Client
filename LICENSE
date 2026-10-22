@@ -1,5 +1,5 @@
 FMG Client License
-Version 1.5, 14 October 2026
+Version 1.6, 22 October 2026
 
 Copyright (c) 2026 FMG-PLUGINS. All rights reserved.
 
@@ -70,8 +70,8 @@ please read them.
       releases page (updates), Mojang and Microsoft (sign-in, the game's files, and the capes your
       Minecraft account owns), Fabric's servers (Fabric Loader), Modrinth (add-ons and modpacks you
       browse and install), Open-Meteo (only if you set a town for the weather), e4mc (only while you
-      host a world), Discord (only the Discord app on your PC, see g), when you share a clip a public
-      file host, and on the S.T.A.L.K.E.R. 2 tab Steam and Nexus Mods (see f). Since version 1.3 also:
+      host a world), Discord (only the Discord app on your PC, see g), when you share a clip with a link
+      the FMG Cosmetics server's clip storage (or, where that is not set up, a public file host), and on the S.T.A.L.K.E.R. 2 tab Steam and Nexus Mods (see f). Since version 1.3 also:
       Modrinth from inside the game (the Modrinth Packs screen, only when you open it), Mojang's
       public profile service (only when you add a player's skin to your Skin Locker by name), and
       Microsoft Edge WebView2 for Steam's and Nexus Mods' own pages shown inside the launcher. They
@@ -86,10 +86,16 @@ please read them.
       bought, a ban from cosmetics if there is one, and - for three days after you change your skin
       with FMG Client - the textures.minecraft.net address of that skin, so FMG Client players see
       it before every server does. Since version 1.4 it keeps the badge you picked (a free style and
-      its colour, or a premium badge you own). Your IP address reaches it with each request, as with
-      any web server; it is not stored in its database. Admins can see names, coins, what an account
-      owns, when it last played and whether it is banned from cosmetics - nothing else. Nothing is
-      sold or given to anyone else.
+      its colour, or a premium badge you own). Since version 1.6 it keeps clips you share with a link
+      for 72 hours (who shared them, their size and when - see the Terms of Service, 6 d), the
+      telemetry of h) while it is on, and a security log for every account: sign-ins, purchases, uploads, skin and badge
+      changes, perks, admin actions on the account, switching telemetry off, and admins looking at
+      the account's telemetry, each with the time, the IP address and the program version, kept 90
+      days and sealed so that changes show - to protect accounts and to investigate abuse or a hacked
+      account; it is handed to authorities only where the law requires or allows it (Terms of
+      Service, section 8). Admins can see names, coins, what an account owns, when it last played,
+      whether it is banned from cosmetics, its telemetry and its security log - nothing else.
+      Nothing is sold, used for advertising or given to anyone else.
    c) The launcher never sees your Microsoft password: you sign in on Microsoft's own page. Your
       login tokens are only sent to Microsoft and Mojang, never to the FMG Cosmetics server or
       anyone else. Signing in to the cosmetics server sends Mojang's public certificate for your
@@ -134,22 +140,35 @@ please read them.
       game and page you are on in the launcher. Since version 1.3 the game shows "FMG Client" there
       too while the launcher is closed (Right Shift > Discord Status turns that off). Both only talk
       to the Discord app running on your PC; nothing is sent while it is off or Discord is closed.
-   h) Anonymous statistics (since version 1.5 of this license, FMG Launcher 1.3): only if you switch
-      them on yourself - with their own tick box on the agreement screen, which is empty until you
-      tick it, or in Settings > Launcher - the launcher sends the FMG Cosmetics server a short report
-      about your PC and how FMG Client's features are used: the versions of the FMG Launcher, the FMG
-      Client mod, the S.T.A.L.K.E.R. 2 tab and Minecraft; the Windows version and build; the
-      processor model with its cores and threads; memory in whole gigabytes; the graphics card model
-      and its video memory; screen sizes and scaling; and plain counts of feature use. It carries a
-      random install ID made on your PC - not your account, name, location, PC name, files, browsing
-      or anything else. Reports are sent when the launcher starts and at most every 30 minutes; the
-      server keeps only the newest per install and deletes it after 120 days without a new one; admins
-      see only totals. Switching it off deletes your report from the server and the install ID from
-      your PC. The legal basis is your consent (Art. 6 (1) (a) GDPR, Section 25 (1) TDDDG), which you
-      can withdraw at any time. Details: Terms of Service, section 7.
+   h) Telemetry ("Share telemetry data", since version 1.6 of this license, FMG Launcher 1.4): on by
+      default and switched off at any time on the agreement screen or in Settings > Launcher >
+      Privacy. While it is on, the launcher sends the FMG Cosmetics server data about the install
+      (versions; Windows version, build and language; processor, memory, graphics card and driver;
+      screens; free disk space; the launcher's settings; the Minecraft mods and their versions, the
+      number of texture packs and the shader; S.T.A.L.K.E.R. 2's build and branch; counts of feature
+      use) and about what happened (launcher and game starts and ends; Minecraft crash reports and,
+      after an error, the end of the game's log; launcher crashes and errors; failed or large
+      downloads; clip uploads), and what FMG Client wrote down in the game (its mods that are on,
+      Java and the graphics driver, video settings, the servers you joined with time, duration, ping
+      and why you left - home network, plain IP and e4mc addresses only as such -, frame-rate
+      summaries and errors of its mods - the game itself never sends anything). Windows
+      user and PC names, profile folders and anything that looks like a token are removed first.
+      Chats, keystrokes, the content of your files, passwords, tokens, account details and browsing
+      are never collected. While the launcher is signed in, telemetry is linked to your Minecraft
+      account, so a problem you report can be looked into. Events are kept 90 days, an install's
+      details until 120 days after its last report; switching telemetry off stops it at once and the
+      server deletes that install's (and, signed in, your account's) telemetry 14 days later. The
+      legal basis is our legitimate interest in finding and fixing problems and in security (Art. 6
+      (1) (f) GDPR) - you can object by switching it off - and, where it is needed, your consent
+      under Section 25 (1) TDDDG, given by leaving the switch on and withdrawn by switching it off.
+      Details, and your rights: Terms of Service, section 7.
    i) Streamer Mode (Settings > Launcher) hides the town for the weather, account details and IDs in
       the launcher while you share your screen. It changes nothing that is sent anywhere.
-   j) Access may be removed for anyone who breaks this license.
+   j) FMG Clips' "Fix Microphone Access" button (since version 1.6, FMG Client 1.5), and only when
+      you press it: sets Windows' microphone permission for desktop programs to "allowed" for your
+      own Windows account, so clips can record your microphone. It changes nothing else, never for
+      other accounts, and Windows' Settings (Privacy > Microphone) can switch it back at any time.
+   k) Access may be removed for anyone who breaks this license.
 
 
 5. THIRD-PARTY SOFTWARE
@@ -197,8 +216,8 @@ please read them.
       malware, account takeover and data loss (Terms of Service, section 9). You use the Software
       entirely at your own risk, and you are responsible for securing your PC, keeping backups and
       protecting your accounts.
-   c) Beta versions of the Software (for example the Minecraft 26.3 beta profile) are for testing,
-      may not work, and may damage or lose data.
+   c) Beta versions of the Software are for testing, may not work, and may damage or lose data. Older
+      Minecraft versions the Software offers (for example 1.12.2) are no longer updated by Mojang.
 
 
 9. LIMITATION OF LIABILITY

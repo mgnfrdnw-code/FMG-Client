@@ -1,5 +1,5 @@
 FMG Client Terms of Service
-Version 1.4, 14 October 2026
+Version 1.5, 22 October 2026
 
 These Terms of Service ("Terms") are the rules for using FMG Client: the FMG Launcher (with its
 S.T.A.L.K.E.R. 2 tab), the FMG Client mod for Minecraft (including its beta builds), the FMG Client
@@ -22,8 +22,8 @@ allows.
       you do not agree, you may not use FMG Client; close the launcher and uninstall it.
    b) By clicking "I AGREE", you confirm that you have read these Terms and the License, that you
       understand them, and that you accept them as they stand for that version.
-   c) The optional statistics (section 7) are a separate choice with their own tick box. Agreeing
-      to these Terms never switches them on.
+   c) Telemetry (section 7) has its own switch on the agreement screen. It is on unless you switched
+      it off; you can switch it off there before you agree, or at any time later in Settings.
 
 
 2. WHO MAY USE FMG CLIENT
@@ -90,60 +90,118 @@ allows.
       and its reason in the launcher. If you think a ban was a mistake, open an issue (see 13).
    c) Skins are changed with Mojang directly, like in the official launcher; Mojang's own rules for
       skins apply to them too.
+   d) Clip links (FMG Launcher 1.4): when you share a clip with a link, the clip is uploaded to the
+      FMG Cosmetics server's clip storage - or, where that is not set up, to the public host
+      litterbox.catbox.moe - and anyone with the link can watch it for 72 hours; then it is deleted.
+      Only MP4 clips recorded with FMG Clips can be shared there, at most 30 links and 1.5 GB a day.
+      The rules of a) apply to them: you are responsible for what your clip shows, and it must not
+      show anything illegal or other people's personal information without their permission. Admins
+      may delete a clip and stop an account from sharing clips; every upload is in the security log
+      (section 8).
 
 
-7. ANONYMOUS STATISTICS (OPTIONAL)
+7. TELEMETRY ("SHARE TELEMETRY DATA")
 
-   To decide what to improve next, FMG Client can send anonymous statistics about the PC it runs on
-   and about which of its features are used. This is entirely optional.
+   FMG Client collects telemetry data so that crashes and other problems can be found and fixed, so
+   that it runs well on the many different PCs it is used on, and so that the service stays secure.
+   Telemetry is only used for that. It is never used for advertising, never sold and never handed
+   to anyone else (except as in 8).
 
-   a) It is OFF unless you switch it on yourself: with its own tick box on the agreement screen
-      (empty until you tick it), or later in Settings > Launcher. You can switch it off there at any
-      time; FMG Client works exactly the same either way.
-   b) What is sent - nothing else:
-      - the versions of the FMG Launcher, the FMG Client mod, the S.T.A.L.K.E.R. 2 tab and the
-        Minecraft version you play;
-      - the Windows version and build number;
-      - the processor model, its number of cores and threads, the amount of memory (rounded to
-        whole gigabytes), the graphics card model and its video memory;
-      - the size and scaling of your screens;
-      - how often features are used, as plain counts (for example how many times Play was
-        pressed, which tabs and pages were opened, which games were played).
-   c) What is never sent: your name, Minecraft, Microsoft, Steam, Nexus Mods or Discord accounts,
-      e-mail, passwords, your location, your IP address as part of the statistics, the names of
-      your PC or Windows user, files, folders, what else is installed, browsing data, chats,
-      screenshots or clips.
-   d) The statistics carry only a random number made on your PC when you switch them on (an
-      "install ID"). It is not linked to your Minecraft account or to anything else about you,
-      and it is created anew when you switch the statistics off and on again.
-   e) They are sent to the FMG Cosmetics server when the launcher starts and then at most once
-      every 30 minutes while it runs. The server keeps only the newest report of each install ID
-      and deletes a report that has not been renewed for 120 days.
-   f) Admins see only totals across all installs (for example how many use Windows 11, or how
-      often a feature is used) - never one single install.
-   g) Switching the statistics off deletes your report from the server straight away (the
-      launcher asks the server to, with the install ID) and deletes the install ID on your PC.
-   h) The legal basis is your consent (Art. 6 (1) (a) GDPR; for the install ID kept on your PC
-      Section 25 (1) TDDDG). You can withdraw it at any time with effect for the future, as in a)
-      and g). The statistics are never sold or handed to anyone, and never used for advertising.
+   a) On by default, off at any time: "Share telemetry data" is switched on when FMG Client is
+      installed. The agreement screen shows the switch before you agree, so you can switch it off
+      right there, and you can switch it off (or on again) at any time in Settings > Launcher >
+      Privacy. FMG Client works exactly the same with telemetry off.
+   b) What is collected - nothing else:
+      - About the install: the versions of the FMG Launcher, the FMG Client mod, the S.T.A.L.K.E.R. 2
+        tab, Minecraft and Fabric Loader; the Windows version, build and language setting; the
+        processor model with its cores and threads; memory in whole gigabytes; the graphics card
+        model, its video memory and its driver version; the size and scaling of your screens; the
+        free space on the drive Minecraft is on; the launcher's settings (the memory given to the
+        game, sounds and their volume, the live background, Streamer Mode, Discord status, automatic
+        updates); the mods installed for Minecraft (their IDs and versions, and whether they are on),
+        how many texture packs are on and which shader; whether S.T.A.L.K.E.R. 2 is installed, its
+        build and branch; and how often FMG Client's features are used (plain counts, for example how
+        often Play was pressed or a tab was opened).
+      - From the game (FMG Client writes these down while you play): which of FMG Client's own mods
+        are on; the Java version and the graphics driver Minecraft reports; the video settings
+        (render distance, frame rate limit, VSync, graphics mode, GUI scale, fullscreen); the servers
+        you join - their address and the name you gave them, when, for how long, your average and
+        highest ping, and the message shown when you left (servers in your home network, servers
+        joined by a plain IP address and worlds shared with e4mc are written down only as that,
+        without the address or the name); frame-rate summaries (average frames per second, the 1 %
+        lows, the lowest, how many very slow frames there were, and how often and how long Java
+        paused the game to clean up memory, with the memory it may use); and errors of FMG Client's own
+        mods (which mod, what went wrong and where in its code - at most ten per game session).
+      - Events: when the launcher and the game start and end, and how long starting took; crashes -
+        Minecraft's crash report, or the last part of the game's log when it closed with an error;
+        crashes and errors of the launcher (what went wrong, and where in its code); downloads that
+        failed or were large (the host, the size and the speed); clip uploads (size, speed, whether
+        they worked); which S.T.A.L.K.E.R. 2 build is started.
+   c) What is never collected: chats or messages, what you type, keystrokes, screenshots and clips
+      themselves, the content of your files, worlds or saves, passwords, login tokens or keys, the
+      details of your Microsoft, Steam, Nexus Mods or Discord accounts, your browsing history, or
+      other programs on your PC. Before anything is sent, the launcher removes from crash reports and
+      logs the name of your Windows user and of your PC, the folders of your user profile, and
+      anything that looks like a token or a session ID.
+   d) Linked to your Minecraft account: while the launcher is signed in to FMG Cosmetics, telemetry
+      is linked to your Minecraft account (its UUID and name). The link is made with the same
+      sign-in that proves which account you use, so nobody can send telemetry in your name. When the
+      launcher is not signed in, telemetry carries only a random install ID made on your PC. The link
+      is there so that, when you report a crash or a problem, the developers can see what happened
+      on your PC and fix it.
+   e) Who sees it: the developers (FMG admins), as totals across all installs and - when looking
+      into a crash, a problem a player reported, or a security incident - for a single player. Every
+      look at a single player's telemetry is recorded in the security log (8). The FMG Cosmetics
+      server runs on Cloudflare (Cloudflare, Inc.), which hosts it on our behalf.
+   f) When it is sent: to the FMG Cosmetics server about a minute after the launcher starts, then
+      about every 30 minutes while it runs, and shortly after a game ends. FMG Client in the game
+      never sends anything itself: it writes its notes into a folder on your PC (fmgclient\telemetry
+      in the game folder) and the launcher sends them. Nothing is sent before you agree to these
+      Terms, and nothing while telemetry is off. What could not be sent yet waits on your PC for the
+      next start.
+   g) How long it is kept: events (sessions, crashes, servers, frame rates, errors) for 90 days; the
+      details of an install until 120 days after its last report.
+   h) Switching it off: the launcher stops collecting at once, deletes on your PC what was waiting to
+      be sent, removes the game's switch so FMG Client stops writing anything down, and asks the
+      server to delete the telemetry of that install - and, when signed in, of your whole account.
+      The server takes nothing more for it from that moment and deletes it 14 days later. It is not
+      deleted at once, so that a problem you had shortly before can still be looked into. If you
+      want it deleted sooner, ask us (13). Switching it on again starts with a new install ID.
+   i) Legal basis: our legitimate interests in finding and fixing crashes and errors, in keeping FMG
+      Client working on different PCs and in keeping it secure (Art. 6 (1) (f) GDPR). You can object
+      at any time, without giving reasons, by switching telemetry off. Where the law requires your
+      consent for storing or reading information on your PC (Section 25 (1) TDDDG), you give it by
+      leaving "Share telemetry data" switched on when you agree to these Terms or later, and you
+      withdraw it at any time by switching it off; withdrawing does not affect what happened before.
+   j) Your rights: you can ask what we have about you, have it corrected or deleted, restrict it,
+      receive it, and object to it (Art. 15-21 GDPR), and complain to a data protection authority.
+      Ask us as in 13.
 
 
-8. PRIVACY IN SHORT
+8. PRIVACY IN SHORT, AND THE SECURITY LOG
 
    The License, section 4, describes exactly which services FMG Client talks to and what is stored.
    In short:
-   - The FMG Cosmetics server keeps only what cosmetics, coins and games need: your Minecraft name
-     and UUID, coins, cosmetics, badges, designs, uploaded pictures, game rounds, a record of coin
-     changes, notifications for you, perks, a ban if there is one, the address of a skin you
-     changed with FMG Client (for three days) and when you last played with FMG Client (for the
-     badge) - and, only if you switched them on, the anonymous statistics of section 7.
-   - Admins cannot look up anything about you beyond your name, coins, what you own, when you last
-     played and whether you are banned from cosmetics.
-   - Like every web server, the FMG Cosmetics server receives your IP address with each request
-     (that is how the internet works); it is not stored in its database.
+   - The FMG Cosmetics server keeps what cosmetics, coins and games need: your Minecraft name and
+     UUID, coins, cosmetics, badges, designs, uploaded pictures, game rounds, a record of coin
+     changes, notifications for you, perks, a ban if there is one, the address of a skin you changed
+     with FMG Client (for three days) and when you last played with FMG Client (for the badge) - and
+     the telemetry of section 7 while it is on.
+   - The security log: sign-ins, purchases, uploaded pictures and clips, skin and badge changes, perks, what
+     admins do to an account (coins, gifts, bans, resets), when telemetry is switched off, and every
+     time an admin looks at a single player's telemetry or exports their security log are recorded
+     with the time, the IP address and the program version they came from. This is kept for 90
+     days, for every account and whether telemetry is on or off, because it is what shows who did
+     what when an account is stolen or misused. Each entry is sealed and numbered, so a changed or
+     removed entry shows. It is used only to protect accounts and to investigate abuse or a hacked
+     account, and it is handed to the police or other authorities only where the law requires or
+     allows it - for example for the investigation of a hacked account. Legal basis: our
+     legitimate interest in the security of the service and of your account (Art. 6 (1) (f) GDPR).
+   - Admins can see names, coins, what an account owns, when it last played, whether it is banned
+     from cosmetics, its telemetry (section 7) and its security log - nothing else.
    - Streamer Mode (Settings > Launcher) hides your town, account details and IDs in the launcher
      while you share your screen.
-   - Nothing about you is sold or handed to anyone.
+   - Nothing about you is sold, and nothing is used for advertising.
 
 
 9. SECURITY - PLEASE READ
@@ -164,8 +222,10 @@ allows.
    c) Mods, modpacks, resource packs, shaders, Workshop items, Nexus Mods files and servers are made
       and run by other people. We do not check, review or vouch for them. Installing or joining them
       is your own decision and at your own risk.
-   d) Beta versions (for example the Minecraft 26.3 beta profile) are early versions for testing.
-      They may not work, may damage or lose data, and may change or be removed at any time.
+   d) Beta versions are early versions for testing. They may not work, may damage or lose data, and
+      may change or be removed at any time. The older Minecraft versions FMG Client offers (for
+      example 1.12.2) are no longer updated by Mojang and may have security weaknesses of their own;
+      play them only on servers you trust.
    e) You are responsible for protecting your PC and your data: keep Windows and your security
       software up to date, keep backups of everything that matters to you (worlds, saves, mods,
       screenshots, clips), use strong passwords and two-step sign-in, and only download FMG Client

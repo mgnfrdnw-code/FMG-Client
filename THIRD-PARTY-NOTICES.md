@@ -139,6 +139,13 @@ THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
   mods' authors, are shown as served, and are not part of FMG Client. Mods you install from the tab
   keep their authors' terms. S.T.A.L.K.E.R. 2: Heart of Chornobyl is a trademark of GSC Game World.
 
+## Built after other mods' ideas (no code or pictures taken)
+
+- **Elytra Indicator** (FMG Client 1.5.0, a Right Shift mod) is modelled on **ElytraIndicator** by ItsFlory
+  (https://github.com/ItsFlory/ElytraIndicator, **MIT**): the same idea - a small elytra under the crosshair while you
+  wear one - in the same place, with the same three settings. FMG Client's code and its elytra picture are its own;
+  no file of the original is included. Thanks for the idea.
+
 ## License texts
 
 | License | Full text |
