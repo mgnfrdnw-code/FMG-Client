@@ -143,8 +143,9 @@ THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 - **Elytra Indicator** (FMG Client 1.5.0, a Right Shift mod) is modelled on **ElytraIndicator** by ItsFlory
   (https://github.com/ItsFlory/ElytraIndicator, **MIT**): the same idea - a small elytra under the crosshair while you
-  wear one - in the same place, with the same three settings. FMG Client's code and its elytra picture are its own;
-  no file of the original is included. Thanks for the idea.
+  wear one - in the same place, with the same three settings. FMG Client's code is its own and no file of the original
+  is included; since FMG Client 1.5.1 its 16x16 elytra outline is drawn after the original's, so it looks the same.
+  Thanks for the idea and the picture.
 
 ## License texts
 
