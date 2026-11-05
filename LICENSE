@@ -1,5 +1,5 @@
 FMG Client License
-Version 1.6, 22 October 2026
+Version 1.7, 5 November 2026
 
 Copyright (c) 2026 FMG-PLUGINS. All rights reserved.
 
@@ -71,7 +71,8 @@ please read them.
       Minecraft account owns), Fabric's servers (Fabric Loader), Modrinth (add-ons and modpacks you
       browse and install), Open-Meteo (only if you set a town for the weather), e4mc (only while you
       host a world), Discord (only the Discord app on your PC, see g), when you share a clip with a link
-      the FMG Cosmetics server's clip storage (or, where that is not set up, a public file host), and on the S.T.A.L.K.E.R. 2 tab Steam and Nexus Mods (see f). Since version 1.3 also:
+      the FMG Cosmetics server's clip storage (or, where that is not set up or is full, the public file hosts
+      litterbox.catbox.moe or 0x0.st), and on the S.T.A.L.K.E.R. 2 tab Steam and Nexus Mods (see f). Since version 1.3 also:
       Modrinth from inside the game (the Modrinth Packs screen, only when you open it), Mojang's
       public profile service (only when you add a player's skin to your Skin Locker by name), and
       Microsoft Edge WebView2 for Steam's and Nexus Mods' own pages shown inside the launcher. They
@@ -87,7 +88,10 @@ please read them.
       with FMG Client - the textures.minecraft.net address of that skin, so FMG Client players see
       it before every server does. Since version 1.4 it keeps the badge you picked (a free style and
       its colour, or a premium badge you own). Since version 1.6 it keeps clips you share with a link
-      for 72 hours (who shared them, their size and when - see the Terms of Service, 6 d), the
+      for 72 hours (who shared them, their size and when - see the Terms of Service, 6 d); since version
+      1.7 the emotes you own and your emote wheel, and while you are on a server it passes on which emote
+      you play to the FMG Client players on the same server (its "live room", named only by a hash of the
+      server's address - nothing is kept, nothing goes to the Minecraft server); the
       telemetry of h) while it is on, and a security log for every account: sign-ins, purchases, uploads, skin and badge
       changes, perks, admin actions on the account, switching telemetry off, and admins looking at
       the account's telemetry, each with the time, the IP address and the program version, kept 90
@@ -141,14 +145,14 @@ please read them.
       too while the launcher is closed (Right Shift > Discord Status turns that off). Both only talk
       to the Discord app running on your PC; nothing is sent while it is off or Discord is closed.
    h) Telemetry ("Share telemetry data", since version 1.6 of this license, FMG Launcher 1.4): on by
-      default and switched off at any time on the agreement screen or in Settings > Launcher >
-      Privacy. While it is on, the launcher sends the FMG Cosmetics server data about the install
+      default and switched off at any time in Settings > Launcher > Privacy. While it is on, the launcher sends the FMG Cosmetics server data about the install
       (versions; Windows version, build and language; processor, memory, graphics card and driver;
       screens; free disk space; the launcher's settings; the Minecraft mods and their versions, the
       number of texture packs and the shader; S.T.A.L.K.E.R. 2's build and branch; counts of feature
       use) and about what happened (launcher and game starts and ends; Minecraft crash reports and,
       after an error, the end of the game's log; launcher crashes and errors; failed or large
-      downloads; clip uploads), and what FMG Client wrote down in the game (its mods that are on,
+      downloads; clip uploads and clips saved - their size and how it went, never the clip; emotes
+      played and imports from other clients, as counts), and what FMG Client wrote down in the game (its mods that are on,
       Java and the graphics driver, video settings, the servers you joined with time, duration, ping
       and why you left - home network, plain IP and e4mc addresses only as such -, frame-rate
       summaries and errors of its mods - the game itself never sends anything). Windows
@@ -156,7 +160,8 @@ please read them.
       Chats, keystrokes, the content of your files, passwords, tokens, account details and browsing
       are never collected. While the launcher is signed in, telemetry is linked to your Minecraft
       account, so a problem you report can be looked into. Events are kept 90 days, an install's
-      details until 120 days after its last report; switching telemetry off stops it at once and the
+      details until 120 days after its last report, daily totals of all installs together (nothing
+      about a single one) 400 days; switching telemetry off stops it at once and the
       server deletes that install's (and, signed in, your account's) telemetry 14 days later. The
       legal basis is our legitimate interest in finding and fixing problems and in security (Art. 6
       (1) (f) GDPR) - you can object by switching it off - and, where it is needed, your consent
@@ -164,11 +169,30 @@ please read them.
       Details, and your rights: Terms of Service, section 7.
    i) Streamer Mode (Settings > Launcher) hides the town for the weather, account details and IDs in
       the launcher while you share your screen. It changes nothing that is sent anywhere.
-   j) FMG Clips' "Fix Microphone Access" button (since version 1.6, FMG Client 1.5), and only when
-      you press it: sets Windows' microphone permission for desktop programs to "allowed" for your
-      own Windows account, so clips can record your microphone. It changes nothing else, never for
-      other accounts, and Windows' Settings (Privacy > Microphone) can switch it back at any time.
-   k) Access may be removed for anyone who breaks this license.
+   j) Clips (FMG Launcher 1.5, "Clips 2.0" - before that FMG Clips in the game): while "Record games" is
+      on and the launcher runs (also in the tray), Clips records the game that is in front of you,
+      fullscreen or borderless: the picture of the screen it is on, through Windows' own screen capture,
+      and that game's sound through Windows - nothing else is recorded, nothing is read from or put into
+      the game, and recording stops a moment after the game leaves the front. With "Record your
+      microphone" on (it is on by default; Windows shows that the microphone is in use) your voice is
+      recorded too. Only the last seconds (the clip length you picked) are kept, in a buffer on your PC
+      that is overwritten all the time and deleted when the recording stops; pressing the save key
+      (F7) saves them as an MP4 in your clips folder. Clips stay on your PC unless you share one with a
+      link (a) - nothing is ever uploaded by itself. Games can be switched off one by one in Clips >
+      Settings. "Allow it" there (only when you press it) sets Windows' microphone permission for
+      desktop programs to "allowed" for your own Windows account, nothing else, and Windows' Settings
+      (Privacy > Microphone) can switch it back at any time.
+   k) Starting with Windows (FMG Launcher 1.5, on by default, Settings > Launcher > Windows): the
+      launcher adds itself to your own Windows account's start-up programs (one value under
+      HKEY_CURRENT_USER\...\Run - no administrator rights) and starts hidden in the tray, so Clips is
+      ready; switching it off removes that value. "Keep running in the tray" keeps it there when you
+      close the window; right-click its icon > Quit ends it.
+   l) Import from other clients (FMG Launcher 1.5, only when you start it): reads, never changes, the
+      settings, servers and packs of other Minecraft launchers and clients on your PC and copies them
+      into FMG Client. Their account files are never opened.
+   m) More than one Microsoft account (FMG Launcher 1.5): each account's sign-in is kept on your PC,
+      encrypted with Windows for your Windows user, and only ever sent to Microsoft and Mojang.
+   n) Access may be removed for anyone who breaks this license.
 
 
 5. THIRD-PARTY SOFTWARE

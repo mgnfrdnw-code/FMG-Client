@@ -62,10 +62,11 @@ changes, both in 7zDec.c: PPMd-packed archives are read too, and PPMd settings l
 
 ## FFmpeg
 
-FMG Clips uses FFmpeg to save clips as MP4 (and the launcher for clip thumbnails). Since 1.3 the installer
-includes a small build made for FMG Client from the upstream sources - FFmpeg 8.1.2 with
-x264 0.165.3223, nv-codec-headers 12.1.14.0 and oneVPL 2023.3.0 - containing only what Clips needs (the one
-change: a version-information resource). It is
+Clips (the FMG Launcher's, since 1.5.0 "Clips 2.0"; FMG Clips in the game before) uses FFmpeg to record games and save
+clips as MP4, to trim them and for clip thumbnails. Since 1.3 the installer includes a small build made for FMG Client from
+the upstream sources - FFmpeg 8.1.2 with x264 0.165.3223, nv-codec-headers 12.1.14.0 and oneVPL 2023.3.0 - containing
+only what Clips needs (two changes: a version-information resource, and since 1.5.0 one log line in the screen capture
+(ddagrab) that says when its first frame was taken, to line the picture up with the sound). It is
 not packed or compressed (the earlier UPX-packed build made antivirus programs suspicious).
 
 - License: **GPL-2.0-or-later**. FFmpeg itself is LGPL-2.1-or-later, but this build includes libx264

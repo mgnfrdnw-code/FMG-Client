@@ -1,5 +1,5 @@
 FMG Client Terms of Service
-Version 1.5, 22 October 2026
+Version 1.6, 5 November 2026
 
 These Terms of Service ("Terms") are the rules for using FMG Client: the FMG Launcher (with its
 S.T.A.L.K.E.R. 2 tab), the FMG Client mod for Minecraft (including its beta builds), the FMG Client
@@ -22,8 +22,8 @@ allows.
       you do not agree, you may not use FMG Client; close the launcher and uninstall it.
    b) By clicking "I AGREE", you confirm that you have read these Terms and the License, that you
       understand them, and that you accept them as they stand for that version.
-   c) Telemetry (section 7) has its own switch on the agreement screen. It is on unless you switched
-      it off; you can switch it off there before you agree, or at any time later in Settings.
+   c) Telemetry (section 7) is on when FMG Client is installed; the agreement screen says so. You can
+      switch it off at any time in Settings > Launcher > Privacy - before you play, if you like.
 
 
 2. WHO MAY USE FMG CLIENT
@@ -90,14 +90,23 @@ allows.
       and its reason in the launcher. If you think a ban was a mistake, open an issue (see 13).
    c) Skins are changed with Mojang directly, like in the official launcher; Mojang's own rules for
       skins apply to them too.
-   d) Clip links (FMG Launcher 1.4): when you share a clip with a link, the clip is uploaded to the
-      FMG Cosmetics server's clip storage - or, where that is not set up, to the public host
-      litterbox.catbox.moe - and anyone with the link can watch it for 72 hours; then it is deleted.
-      Only MP4 clips recorded with FMG Clips can be shared there, at most 30 links and 1.5 GB a day.
+   d) Clip links (FMG Launcher 1.4; 1.5: more hosts): when you share a clip with a link, the clip is
+      uploaded to the FMG Cosmetics server's clip storage - or, where that is not set up or is full, to
+      a public file host (litterbox.catbox.moe, or 0x0.st if that one cannot take it) - and anyone
+      with the link can watch it for 72 hours; then it is deleted. Only MP4 clips can be shared on the
+      FMG Cosmetics server, at most 30 links and 1.5 GB a day.
       The rules of a) apply to them: you are responsible for what your clip shows, and it must not
       show anything illegal or other people's personal information without their permission. Admins
       may delete a clip and stop an account from sharing clips; every upload is in the security log
       (section 8).
+   e) Emotes (FMG Client 1.6): the emotes you play are seen by other FMG Client players near you.
+      While you are on a server, FMG Client keeps a connection to the FMG Cosmetics server's "live
+      room" for that server (named only by a hash of the server's address) and passes on which emote
+      you start or stop - nothing else, and nothing to the Minecraft server. Emotes are bought with
+      coins like cosmetics (section 5). Do not use them to harass anyone (section 4 c).
+   f) Clips (FMG Launcher 1.5): what you record and share is yours to answer for. Recording other
+      people's voices or anything shown on your screen can be restricted where you live - ask before
+      you record or share others, and respect the rules of the servers and games you play.
 
 
 7. TELEMETRY ("SHARE TELEMETRY DATA")
@@ -108,9 +117,8 @@ allows.
    to anyone else (except as in 8).
 
    a) On by default, off at any time: "Share telemetry data" is switched on when FMG Client is
-      installed. The agreement screen shows the switch before you agree, so you can switch it off
-      right there, and you can switch it off (or on again) at any time in Settings > Launcher >
-      Privacy. FMG Client works exactly the same with telemetry off.
+      installed. The agreement screen says so, and you can switch it off (or on again) at any time in
+      Settings > Launcher > Privacy. FMG Client works exactly the same with telemetry off.
    b) What is collected - nothing else:
       - About the install: the versions of the FMG Launcher, the FMG Client mod, the S.T.A.L.K.E.R. 2
         tab, Minecraft and Fabric Loader; the Windows version, build and language setting; the
@@ -135,8 +143,12 @@ allows.
       - Events: when the launcher and the game start and end, and how long starting took; crashes -
         Minecraft's crash report, or the last part of the game's log when it closed with an error;
         crashes and errors of the launcher (what went wrong, and where in its code); downloads that
-        failed or were large (the host, the size and the speed); clip uploads (size, speed, whether
-        they worked); which S.T.A.L.K.E.R. 2 build is started.
+        failed or were large (the host, the size and the speed); clip uploads (size, speed, the host,
+        whether they worked); clips saved (their length, picture size and frame rate, the encoder, the
+        file size, how long saving took, whether sound and the microphone were in it - never the
+        clip, the picture or the game's name); which emotes were played how often and how often the
+        emote wheel was opened (counts); an import from other clients (which client, and how many
+        servers, mods and packs came along - no names); which S.T.A.L.K.E.R. 2 build is started.
    c) What is never collected: chats or messages, what you type, keystrokes, screenshots and clips
       themselves, the content of your files, worlds or saves, passwords, login tokens or keys, the
       details of your Microsoft, Steam, Nexus Mods or Discord accounts, your browsing history, or
@@ -160,7 +172,9 @@ allows.
       Terms, and nothing while telemetry is off. What could not be sent yet waits on your PC for the
       next start.
    g) How long it is kept: events (sessions, crashes, servers, frame rates, errors) for 90 days; the
-      details of an install until 120 days after its last report.
+      details of an install until 120 days after its last report. Daily totals for all installs
+      together (how many were active, sessions, hours played and crashes on each day - nothing about
+      a single install or player) are kept for 400 days, for the year view.
    h) Switching it off: the launcher stops collecting at once, deletes on your PC what was waiting to
       be sent, removes the game's switch so FMG Client stops writing anything down, and asks the
       server to delete the telemetry of that install - and, when signed in, of your whole account.
