@@ -65,8 +65,9 @@ changes, both in 7zDec.c: PPMd-packed archives are read too, and PPMd settings l
 Clips (the FMG Launcher's, since 1.5.0 "Clips 2.0"; FMG Clips in the game before) uses FFmpeg to record games and save
 clips as MP4, to trim them and for clip thumbnails. Since 1.3 the installer includes a small build made for FMG Client from
 the upstream sources - FFmpeg 8.1.2 with x264 0.165.3223, nv-codec-headers 12.1.14.0 and oneVPL 2023.3.0 - containing
-only what Clips needs (two changes: a version-information resource, and since 1.5.0 one log line in the screen capture
-(ddagrab) that says when its first frame was taken, to line the picture up with the sound). It is
+only what Clips needs (three changes: a version-information resource; since 1.5.0 one log line in the screen capture
+(ddagrab) that says when its first frame was taken, to line the picture up with the sound; since 1.5.1 a precise timer
+in the screen capture, so frames are taken at even intervals). It is
 not packed or compressed (the earlier UPX-packed build made antivirus programs suspicious).
 
 - License: **GPL-2.0-or-later**. FFmpeg itself is LGPL-2.1-or-later, but this build includes libx264
@@ -145,7 +146,8 @@ THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 - **Elytra Indicator** (FMG Client 1.5.0, a Right Shift mod) is modelled on **ElytraIndicator** by ItsFlory
   (https://github.com/ItsFlory/ElytraIndicator, **MIT**): the same idea - a small elytra under the crosshair while you
   wear one - in the same place, with the same three settings. FMG Client's code is its own and no file of the original
-  is included; since FMG Client 1.5.1 its 16x16 elytra outline is drawn after the original's, so it looks the same.
+  is included; since FMG Client 1.5.1 its 16x16 elytra outline is drawn after the original's, so it looks the same
+  (and since 1.6.1 that 16x16 picture is used again as it is, in whole-number sizes).
   Thanks for the idea and the picture.
 
 ## License texts
