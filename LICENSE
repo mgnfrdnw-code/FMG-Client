@@ -1,279 +1,293 @@
 FMG Client License
-Version 1.7, 5 November 2026
+Version 1.8, 13 November 2026
 
 Copyright (c) 2026 FMG-PLUGINS. All rights reserved.
 
-This license covers FMG Client: the FMG Client mod for Minecraft, the FMG Launcher (including its
-S.T.A.L.K.E.R. 2 tab), the FMG Client installer, the FMG Cosmetics server, and everything that comes
-with them (code, cosmetic designs, artwork, backgrounds, texts, the name "FMG Client" and its logo).
-Together these are called "the Software" below. "You" means the person using it.
+This License sets out what you may and may not do with FMG Client as software. The FMG Client Terms
+of Service and Privacy Notice (TERMS-OF-SERVICE.md, also shown in the launcher; "the Terms") govern
+taking part in the online service and explain how personal data is handled. The License and Part A
+of the Terms together form one agreement between you and FMG-PLUGINS ("the Agreement"). You accept
+both on the launcher's agreement screen before you use the launcher - again at every installation
+or reinstallation and with every new version of the FMG Launcher.
 
-FMG Client is free. You get it without paying anything, and this license tells you what you may
-and may not do with it. The FMG Client Terms of Service (TERMS-OF-SERVICE.md, also shown in the
-launcher) add the rules for taking part in the online service. You agree to both before you use
-the launcher - again each time it is installed or reinstalled, and with every new version of the
-FMG Launcher. Sections 8 to 10 below limit the developers' responsibility as far as the law allows;
-please read them.
+Sections 9 to 11 describe the extent of our responsibility for a free hobby project. Please read
+them carefully.
 
 
-1. WHAT YOU MAY DO
+1. DEFINITIONS AND OWNERSHIP
 
-   a) Download the Software from its official sources: the releases page at
-      https://github.com/mgnfrdnw-code/FMG-Client/releases and the FMG Launcher's own updater.
-   b) Install it and use it on your own computers, for your own personal, non-commercial play.
-   c) Share the link to the official releases page with anyone.
-
-
-2. WHAT YOU MAY NOT DO
-
-   Unless FMG-PLUGINS has given you written permission, you may not:
-
-   a) upload, mirror, re-host or otherwise hand out copies of the Software, whether changed or
-      not, or put it into a modpack, launcher or installer of your own. Share the official link
-      instead;
-   b) sell, rent, lend or charge for the Software, access to it, or anything in it;
-   c) modify, decompile, disassemble or reverse engineer the Software, or build other software
-      from it, except where the law allows this regardless of what a license says;
-   d) remove or change any copyright notice, this license, or the third-party notices;
-   e) use the name "FMG Client", its logo or its cosmetic designs for anything else;
-   f) attack, overload, automate or trick the FMG Cosmetics server, or use bugs to get coins or
-      cosmetics you did not earn. If you find such a bug, please report it instead.
+   a) "The Software" means FMG Client in every form in which we make it available: the FMG Client
+      mod for Minecraft (including beta builds and builds for older Minecraft versions), the FMG
+      Launcher (including its S.T.A.L.K.E.R. 2 tab and its Clips recorder), the FMG Client
+      installer, the software of the FMG Cosmetics server, and everything that belongs to them and
+      was created for them: program code, cosmetic, emote and pet designs, models, artwork,
+      backgrounds, sounds made for FMG Client, texts, the name "FMG Client" and its logo.
+   b) "We", "us" and "FMG-PLUGINS" mean the provider named in section 1 of the Terms. "You" means
+      the person using the Software.
+   c) The Software is protected by copyright and other intellectual property laws. It is licensed,
+      not sold. All rights that this License does not expressly grant to you remain with the
+      provider, FMG-PLUGINS.
+   d) "Third-party components" are the works of other people that are delivered with the Software
+      or downloaded by it (section 6). They are not part of "the Software" as defined here.
 
 
-3. COINS, GAMES AND COSMETICS
+2. WHAT YOU MAY DO
 
-   a) Coins are a free, just-for-fun points system. They cannot be bought with real money, and
-      they cannot be sold, traded, transferred, cashed out or exchanged for money or anything of
-      real-world value. The same goes for cosmetics, seasonal ones included.
-   b) The games in the launcher (Blackjack, Roulette, Rocket, Penguin, Raining Money, Plinko and the
-      seasonal event games) are played with these coins only. No real money is ever wagered, won or
-      lost.
-   c) Coins and cosmetics are not your property. FMG-PLUGINS may change prices, items, perks, seasons
-      and game rules, and may correct or reset balances, for example after a bug or when coins were
-      gained by breaking section 2 f). Seasonal cosmetics are only sold during their season; the
-      ones you bought stay in your locker. Perks are bought with coins and last the days shown.
-      Admins may send coins or cosmetics to one player or to everyone as gifts, and may reset a
-      player's coins, cosmetics or a single cosmetic; the player gets a notification. Badges (free
-      styles and premium ones bought with coins) are cosmetics too and are seen by other FMG Client
-      players.
-   d) Pictures you upload for a cape or a shield, shield designs you make and skins you wear must be
-      yours or used with permission, and must not be offensive, hateful, sexual or otherwise
-      inappropriate. They are visible to other FMG Client players and may be removed at any time.
-      Admins may ban an account from FMG Cosmetics for this: what it wears is then hidden from
-      everyone, and it cannot buy, change, upload or wear cosmetics until the ban is lifted. The
-      player is told, with the reason.
+   Subject to your compliance with the Agreement, FMG-PLUGINS grants you a personal, non-exclusive,
+   non-transferable, revocable licence, free of charge, to:
+
+   a) download the Software from its official sources - the releases page at
+      https://github.com/mgnfrdnw-code/FMG-Client/releases and the FMG Launcher's own updater;
+   b) install it and run it on computers you own or control, for your own personal, non-commercial
+      use;
+   c) make the copies that are technically necessary for this, and one backup copy;
+   d) share the link to the official releases page with anyone.
 
 
-4. ONLINE SERVICES AND YOUR DATA
+3. WHAT YOU MAY NOT DO
 
-   a) The Software uses online services: the FMG Cosmetics server (coins, cosmetics, games), the
-      releases page (updates), Mojang and Microsoft (sign-in, the game's files, and the capes your
-      Minecraft account owns), Fabric's servers (Fabric Loader), Modrinth (add-ons and modpacks you
-      browse and install), Open-Meteo (only if you set a town for the weather), e4mc (only while you
-      host a world), Discord (only the Discord app on your PC, see g), when you share a clip with a link
-      the FMG Cosmetics server's clip storage (or, where that is not set up or is full, the public file hosts
-      litterbox.catbox.moe or 0x0.st), and on the S.T.A.L.K.E.R. 2 tab Steam and Nexus Mods (see f). Since version 1.3 also:
-      Modrinth from inside the game (the Modrinth Packs screen, only when you open it), Mojang's
-      public profile service (only when you add a player's skin to your Skin Locker by name), and
-      Microsoft Edge WebView2 for Steam's and Nexus Mods' own pages shown inside the launcher. They
-      are provided as they are, and may change, pause or stop at any time.
-   b) The FMG Cosmetics server stores your Minecraft name and UUID, your coins, your cosmetics,
-      your shield designs, your game rounds, pictures you upload, and a record of coin changes. It
-      uses this only to run coins, cosmetics and games. What you wear, cape and shield pictures
-      included, is shown to other FMG Client players - that is the point of cosmetics. It also notes
-      when you last played with FMG Client, so that for 30 days after that the FMG badge next to
-      your name tells other FMG Client players, on any server, that you use it too. Since version
-      1.3 it also keeps notifications for you (gifts, coins from an admin, a ban), the perks you
-      bought, a ban from cosmetics if there is one, and - for three days after you change your skin
-      with FMG Client - the textures.minecraft.net address of that skin, so FMG Client players see
-      it before every server does. Since version 1.4 it keeps the badge you picked (a free style and
-      its colour, or a premium badge you own). Since version 1.6 it keeps clips you share with a link
-      for 72 hours (who shared them, their size and when - see the Terms of Service, 6 d); since version
-      1.7 the emotes you own and your emote wheel, and while you are on a server it passes on which emote
-      you play to the FMG Client players on the same server (its "live room", named only by a hash of the
-      server's address - nothing is kept, nothing goes to the Minecraft server); the
-      telemetry of h) while it is on, and a security log for every account: sign-ins, purchases, uploads, skin and badge
-      changes, perks, admin actions on the account, switching telemetry off, and admins looking at
-      the account's telemetry, each with the time, the IP address and the program version, kept 90
-      days and sealed so that changes show - to protect accounts and to investigate abuse or a hacked
-      account; it is handed to authorities only where the law requires or allows it (Terms of
-      Service, section 8). Admins can see names, coins, what an account owns, when it last played,
-      whether it is banned from cosmetics, its telemetry and its security log - nothing else.
-      Nothing is sold, used for advertising or given to anyone else.
-   c) The launcher never sees your Microsoft password: you sign in on Microsoft's own page. Your
-      login tokens are only sent to Microsoft and Mojang, never to the FMG Cosmetics server or
-      anyone else. Signing in to the cosmetics server sends Mojang's public certificate for your
-      account and a signature made with it, which proves which Minecraft account you use. Wearing
-      one of your Minecraft capes, and changing your skin (the Skin Locker, in the launcher and in
-      game), is done with Mojang directly, like in the official launcher. Your skins are kept in
-      the skins folder next to the game, on your PC.
-   d) The weather on the Play page's background is only looked up if you type a town in Settings.
-      The launcher then sends that name to Open-Meteo (open-meteo.com) once to find the place, and
-      afterwards only the place's coordinates, about every 20 minutes while the launcher is open.
-      Nothing else about you is sent, and no place is ever worked out by itself. Remove the town,
-      or turn the weather off, to stop it. Day and night are worked out on your PC, offline.
-   e) Hosting a world for friends (Open to LAN with hosting on) runs the e4mc mod, which the launcher
-      downloads from Modrinth. While you host, your world's connection goes through e4mc's relay
-      (e4mc.link) so friends anywhere can join with the address it gives you. Nothing is hosted
-      when you do not open your world.
-   f) The S.T.A.L.K.E.R. 2 tab:
-      - Linking your Steam account: you sign in on Steam's own page in your browser. The launcher
-        never sees your Steam password; it only receives your public Steam ID, has Steam confirm it,
-        and keeps it and your public Steam name on your PC to see whether the copy of the game on
-        this PC is yours. Steam is only started by the launcher (quietly, in the tray) once that is
-        confirmed - when the launcher starts, and when an update for the game is out - and you can
-        switch this off.
-      - Patch notes come from Steam's public news for the game, and the Steam Workshop is read from
-        Steam's public pages. Subscribing to Workshop items is done by Steam itself.
-      - Nexus Mods: browsing needs nothing. Installing needs your own Nexus Mods account: the
-        personal API key you paste is kept on your PC, encrypted with Windows for your Windows user,
-        and is only ever sent to Nexus Mods' own API. Downloads only take Nexus Mods' own routes
-        (direct for Premium members, Nexus' "Mod Manager Download" button for everyone else), never
-        a way around them. If you allow it, Nexus' "Mod Manager Download" links open the launcher;
-        switching that off gives them back to the program that had them before.
-      - Steam's store page and Nexus Mods' pages can open in a small window inside the launcher
-        (Microsoft Edge WebView2). They are those services' own pages: what you type into them,
-        including a sign-in, goes to them only, and the launcher does not read it. Their sign-ins
-        stay in the launcher's own browser folder (launcher\webview; deleting it signs you out).
-        From Nexus Mods the launcher only takes what Nexus itself hands over for a mod: its "Mod
-        Manager Download" link, or a mod's archive you download there yourself, which is kept in
-        launcher\downloads (deleted after a day) and installed.
-      - Mods are made by other people, under their own terms, and are not checked by FMG-PLUGINS.
-        You install them at your own risk; keep a copy of your saves.
-   g) Discord Rich Presence (on by default, off in Settings) shows in your Discord status which
-      game and page you are on in the launcher. Since version 1.3 the game shows "FMG Client" there
-      too while the launcher is closed (Right Shift > Discord Status turns that off). Both only talk
-      to the Discord app running on your PC; nothing is sent while it is off or Discord is closed.
-   h) Telemetry ("Share telemetry data", since version 1.6 of this license, FMG Launcher 1.4): on by
-      default and switched off at any time in Settings > Launcher > Privacy. While it is on, the launcher sends the FMG Cosmetics server data about the install
-      (versions; Windows version, build and language; processor, memory, graphics card and driver;
-      screens; free disk space; the launcher's settings; the Minecraft mods and their versions, the
-      number of texture packs and the shader; S.T.A.L.K.E.R. 2's build and branch; counts of feature
-      use) and about what happened (launcher and game starts and ends; Minecraft crash reports and,
-      after an error, the end of the game's log; launcher crashes and errors; failed or large
-      downloads; clip uploads and clips saved - their size and how it went, never the clip; emotes
-      played and imports from other clients, as counts), and what FMG Client wrote down in the game (its mods that are on,
-      Java and the graphics driver, video settings, the servers you joined with time, duration, ping
-      and why you left - home network, plain IP and e4mc addresses only as such -, frame-rate
-      summaries and errors of its mods - the game itself never sends anything). Windows
-      user and PC names, profile folders and anything that looks like a token are removed first.
-      Chats, keystrokes, the content of your files, passwords, tokens, account details and browsing
-      are never collected. While the launcher is signed in, telemetry is linked to your Minecraft
-      account, so a problem you report can be looked into. Events are kept 90 days, an install's
-      details until 120 days after its last report, daily totals of all installs together (nothing
-      about a single one) 400 days; switching telemetry off stops it at once and the
-      server deletes that install's (and, signed in, your account's) telemetry 14 days later. The
-      legal basis is our legitimate interest in finding and fixing problems and in security (Art. 6
-      (1) (f) GDPR) - you can object by switching it off - and, where it is needed, your consent
-      under Section 25 (1) TDDDG, given by leaving the switch on and withdrawn by switching it off.
-      Details, and your rights: Terms of Service, section 7.
-   i) Streamer Mode (Settings > Launcher) hides the town for the weather, account details and IDs in
-      the launcher while you share your screen. It changes nothing that is sent anywhere.
-   j) Clips (FMG Launcher 1.5, "Clips 2.0" - before that FMG Clips in the game): while "Record games" is
-      on and the launcher runs (also in the tray), Clips records the game that is in front of you,
-      fullscreen or borderless: the picture of the screen it is on, through Windows' own screen capture,
-      and that game's sound through Windows - nothing else is recorded, nothing is read from or put into
-      the game, and recording stops a moment after the game leaves the front. With "Record your
-      microphone" on (it is on by default; Windows shows that the microphone is in use) your voice is
-      recorded too. Only the last seconds (the clip length you picked) are kept, in a buffer on your PC
-      that is overwritten all the time and deleted when the recording stops; pressing the save key
-      (F7) saves them as an MP4 in your clips folder. Clips stay on your PC unless you share one with a
-      link (a) - nothing is ever uploaded by itself. Games can be switched off one by one in Clips >
-      Settings. "Allow it" there (only when you press it) sets Windows' microphone permission for
-      desktop programs to "allowed" for your own Windows account, nothing else, and Windows' Settings
-      (Privacy > Microphone) can switch it back at any time.
-   k) Starting with Windows (FMG Launcher 1.5, on by default, Settings > Launcher > Windows): the
-      launcher adds itself to your own Windows account's start-up programs (one value under
-      HKEY_CURRENT_USER\...\Run - no administrator rights) and starts hidden in the tray, so Clips is
-      ready; switching it off removes that value. "Keep running in the tray" keeps it there when you
-      close the window; right-click its icon > Quit ends it.
-   l) Import from other clients (FMG Launcher 1.5, only when you start it): reads, never changes, the
-      settings, servers and packs of other Minecraft launchers and clients on your PC and copies them
-      into FMG Client. Their account files are never opened.
-   m) More than one Microsoft account (FMG Launcher 1.5): each account's sign-in is kept on your PC,
-      encrypted with Windows for your Windows user, and only ever sent to Microsoft and Mojang.
-   n) Access may be removed for anyone who breaks this license.
+   Unless FMG-PLUGINS has given you permission in writing (for example by e-mail), or mandatory
+   law allows it regardless of what a licence says, you may not:
+
+   a) distribute the Software: upload, mirror, re-host, publish or otherwise pass on copies of it,
+      changed or unchanged, or include it in a modpack, launcher, installer or other product.
+      Share the official link instead;
+   b) sell, rent, lend or sublicense the Software, access to it or anything in it, or otherwise
+      use it commercially;
+   c) modify, translate, decompile, disassemble or reverse engineer the Software or create works
+      derived from it. Rights you have under mandatory law - in particular under Sections 69d and
+      69e of the German Copyright Act (Urheberrechtsgesetz) and the corresponding law of your
+      country - remain unaffected;
+   d) remove, alter or obscure a copyright notice, this License, the Terms or the third-party
+      notices;
+   e) use the name "FMG Client", its logo or its designs for anything other than referring to the
+      Software, or in a way that suggests that something comes from or is approved by FMG-PLUGINS;
+   f) circumvent technical protections of the Software or of the FMG Cosmetics server, or use the
+      Software in a way section 5 of the Terms prohibits.
+
+   Requests for permission: mgn.frd.nw@gmail.com.
 
 
-5. THIRD-PARTY SOFTWARE
+4. COINS AND ITEMS
 
-   The installer and the launcher also contain software made by other people, such as other Fabric
-   mods, FFmpeg, Fabric Loader's version file, the LZMA SDK and Microsoft's WebView2 loader. Those parts are not covered by this
-   license: each keeps its own license and its own authors' rights, listed in
-   THIRD-PARTY-NOTICES.md. Nothing in this license limits the rights those licenses give you.
+   Coins, cosmetics, emotes, pets, badges and perks have no monetary value, cannot be bought with
+   or exchanged for money, and are not your property; you receive only the limited permission to
+   use them that section 6 of the Terms describes. Designs, models, animations and sounds of items
+   are part of the Software and remain ours; pictures you upload remain yours (Terms, section 7).
 
 
-6. MINECRAFT AND S.T.A.L.K.E.R. 2
+5. WHAT THE SOFTWARE DOES ON YOUR PC
+
+   This section describes the functions of the Software that affect your PC, so that you can
+   decide whether to use them. Which personal data is processed, on which legal basis and for how
+   long is set out in Part B of the Terms (the Privacy Notice), which prevails where it is more
+   specific.
+
+   a) Sign-in. You sign in on Microsoft's own page; the launcher never receives your Microsoft
+      password. Sign-in tokens are sent only to Microsoft and Mojang. Signing in to the FMG
+      Cosmetics server transmits the public certificate Mojang issues for your account and a
+      signature made with it, which proves which Minecraft account you use. Where you use more than
+      one Microsoft account, each account's sign-in is stored on your PC, encrypted with Windows
+      for your Windows user account.
+   b) Skins and capes. Wearing one of your Minecraft capes and changing your skin (the Skin Locker,
+      in the launcher and in the game) is done with Mojang directly, as in the official launcher.
+      Your skins are kept in the skins folder next to the game on your PC.
+   c) Mods installed for you. At the first start of a Minecraft version, the launcher downloads
+      the mods FMG Client relies on by default (currently performance mods) from Modrinth's
+      servers, checks each file against the version FMG Client was tested with, and places it in
+      the game's mods folder; a shader loader is downloaded when you first switch a shader on, and
+      e4mc when you first host a world. Mods already in your mods folder are not removed.
+   d) Weather. The weather on the Play page's background is looked up only if you enter a town
+      under Settings. The launcher then sends that name to Open-Meteo once to find the place, and
+      afterwards only the place's coordinates, about every 20 minutes while it is open. No location
+      is ever determined automatically. Day and night are calculated on your PC.
+   e) Hosting a world (Open to LAN with hosting on) runs the e4mc mod. While you host, your
+      world's connection runs through e4mc's relay (e4mc.link) so that friends can join with the
+      address it gives you. Nothing is hosted while your world is not open.
+   f) The S.T.A.L.K.E.R. 2 tab.
+      - Steam: you link your account on Steam's own page in your browser. The launcher never
+        receives your Steam password; it receives your public Steam ID, has Steam confirm it, and
+        keeps it and your public Steam name on your PC to check whether the copy of the game on
+        this PC is yours. The launcher starts Steam (quietly, in the notification area) only once
+        that is confirmed, namely when the launcher starts and when an update of the game is
+        available; this can be switched off. Patch notes and Workshop pages are read from Steam's
+        public pages; subscribing to Workshop items is carried out by Steam itself.
+      - Nexus Mods: browsing needs no account. Installing needs your own Nexus Mods account: the
+        personal API key you paste is stored on your PC, encrypted with Windows for your Windows
+        user account, and is sent only to Nexus Mods' own interface. Downloads use only the routes
+        Nexus Mods itself provides (direct for Premium members, the "Mod Manager Download" button
+        for everyone else) and never a way around them. If you allow it, "Mod Manager Download"
+        links open the launcher; switching this off returns them to the program that handled them
+        before.
+      - Pages inside the launcher: Steam's store page and Nexus Mods' pages can be displayed in a
+        window inside the launcher (Microsoft Edge WebView2). They are those services' own pages:
+        what you enter there, including a sign-in, goes to them only and is not read by the
+        launcher. Their sign-ins are kept in the launcher's own browser folder (launcher\webview;
+        deleting it signs you out). An archive you download there is kept in launcher\downloads,
+        installed, and deleted after a day.
+   g) Discord Rich Presence (on by default, off under Settings and under Right Shift > Discord
+      Status) shows in your Discord status which game and page you are on. It communicates only
+      with the Discord application running on your PC; nothing is sent while it is off or Discord
+      is closed.
+   h) Telemetry ("Share telemetry data") is on by default and can be switched off at any time
+      under Settings > Launcher > Privacy. While it is on, the launcher sends the FMG Cosmetics
+      server technical data about the installation (versions, Windows, processor, memory, graphics
+      card, screens, free disk space, settings, installed mods, feature counts) and about what
+      happened (starts and ends, crashes and errors, downloads, clip uploads and saved clips as
+      figures - never the clip, and the notes the mod writes in the game: servers joined, frame
+      rates, its own errors). Names of your Windows user and PC, profile folders and anything
+      resembling a token are removed first. Chats, keystrokes, file contents, passwords, tokens,
+      account details and browsing are never collected. The complete and binding description,
+      including retention, legal basis and your rights, is section 21 of the Terms.
+   i) Streamer Mode (Settings > Launcher) hides the town for the weather, account details and IDs
+      in the launcher while you share your screen. It does not change what is transmitted.
+   j) Clips. While "Record games" is on and the launcher is running (also in the notification
+      area), Clips records the game that is in front of you: its picture, through Windows' own
+      screen capture, and sound, through Windows' own sound capture. Nothing is read from or
+      inserted into the game, and recording stops shortly after the game leaves the foreground. By
+      default all sound your PC plays is recorded (this can include voice chat and music); you can
+      limit it to the game's own sound, and you can add your microphone, which is off by default
+      (Windows shows when the microphone is in use). Only the last seconds, the clip length you
+      chose, are kept in a buffer on your PC that is overwritten continuously and deleted when
+      recording stops; the save key (F7 unless you change it) saves them as an MP4 in your clips
+      folder. Clips stay on your PC unless you share one by link; nothing is uploaded
+      automatically. Games can be excluded one by one under Clips > Settings. The "Allow it"
+      button there, only when you press it, sets Windows' microphone permission for desktop
+      programs to "allowed" for your own Windows user account and nothing else; Windows' Settings
+      (Privacy > Microphone) can reverse it at any time. Your legal responsibility for what you
+      record and share is set out in section 8 of the Terms.
+   k) Starting with Windows (on by default; Settings > Launcher > Windows). The launcher adds
+      itself to the start-up programs of your own Windows user account (one value under
+      HKEY_CURRENT_USER\...\Run, no administrator rights) and starts hidden in the notification
+      area so that Clips is ready; switching the option off removes that value. "Keep running in
+      the tray" keeps the launcher there when you close its window; its icon's menu ends it.
+   l) Import from other clients, only when you start it, reads - and never changes - the settings,
+      servers and packs of other Minecraft launchers and clients on your PC and copies them into
+      FMG Client. Their account files are never opened.
+   m) Emote sounds. Emotes may play a sound on your PC and on the PCs of FMG Client players near
+      you. A sound file you place in the emote-sounds folder of the game folder replaces an
+      emote's sound on your own PC only; it is never transmitted. You are responsible for having
+      the right to use files you place there.
+   n) Updates. The launcher checks for new versions when it starts and installs them
+      automatically. The Software is never replaced while the game is running.
+   o) Live Ping (in the Ping mod, on by default) measures your ping every few seconds the way
+      Minecraft's own server list does: a short, separate status request to the server you play
+      on. The server can see these requests like a server-list refresh; nothing is sent over the
+      connection you play on. It can be switched off in the Ping mod's settings.
+
+
+6. THIRD-PARTY COMPONENTS
+
+   a) The installer and the launcher contain or download works of other people, for example other
+      Fabric mods, Fabric API, FFmpeg, Fabric Loader's version file, the LZMA SDK and Microsoft's
+      WebView2 loader. They are listed, with their authors, licences and sources, in
+      THIRD-PARTY-NOTICES.md.
+   b) Third-party components are not licensed to you by FMG-PLUGINS and are not covered by this
+      License. Each remains the property of its authors and is subject exclusively to its own
+      licence, which you must observe. Nothing in this License restricts rights that those
+      licences give you, and nothing in this License claims rights in them for FMG-PLUGINS.
+   c) Rights holders who believe that FMG Client contains or distributes their work without
+      permission are asked to write to mgn.frd.nw@gmail.com. Justified requests are acted on
+      without undue delay (THIRD-PARTY-NOTICES.md, "For rights holders").
+
+
+7. MINECRAFT AND S.T.A.L.K.E.R. 2; TRADEMARKS
 
    NOT AN OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG OR MICROSOFT.
 
    "Minecraft" is a trademark of Mojang Synergies AB / Microsoft. You need your own legitimate copy
-   of Minecraft: Java Edition to use FMG Client. The Software does not contain or hand out any
-   part of Minecraft itself.
+   of Minecraft: Java Edition to use FMG Client. The Software does not contain or distribute any
+   part of Minecraft itself; the game's files are downloaded from Mojang's servers to your PC with
+   your own account.
 
    The S.T.A.L.K.E.R. 2 tab is not an official S.T.A.L.K.E.R. 2 product and is not approved by or
    associated with GSC Game World, Valve (Steam), Nexus Mods or Discord. "S.T.A.L.K.E.R. 2: Heart
    of Chornobyl" is a trademark of GSC Game World. You need your own copy of the game; the Software
-   does not contain or hand out any part of it. Patch notes, mod names, descriptions and pictures
-   shown on the tab belong to their owners.
+   does not contain or distribute any part of it. Patch notes, mod names, descriptions and pictures
+   displayed on the tab belong to their owners.
+
+   All other product names, game names and names of emotes that refer to games, works or people
+   are used only to describe what they refer to; they belong to their respective owners, and no
+   association with or endorsement by them is claimed.
 
 
-7. PLAYING ON SERVERS, AND MODS
+8. PLAYING ON SERVERS, AND MODS
 
-   Many servers have rules about which mods and clients are allowed. It is your responsibility to
-   follow the rules of the servers you play on. FMG-PLUGINS is not responsible if a server kicks
-   or bans you. The same goes for mods you install for any game: it is your choice which mods you
-   use.
-
-
-8. NO WARRANTY, AND SECURITY
-
-   a) The Software is provided "as is" and "as available", without any warranty or guarantee of any
-      kind, express or implied - including that it works without errors or interruptions, that it
-      is secure, that it is free of viruses or other harmful parts, that it suits a particular
-      purpose, that it stays available, or that it does not infringe anyone's rights.
-   b) The Software is a free hobby project made by private developers. It is not developed, tested
-      or run to the standards of commercial security software; no security audits or certifications
-      have been made, and FMG-PLUGINS does not invest in in-depth security measures or promise any.
-      Using it - downloading, installing, updating, signing in, installing mods and other content,
-      joining servers - can expose your PC, your data and your accounts to risks such as attacks,
-      malware, account takeover and data loss (Terms of Service, section 9). You use the Software
-      entirely at your own risk, and you are responsible for securing your PC, keeping backups and
-      protecting your accounts.
-   c) Beta versions of the Software are for testing, may not work, and may damage or lose data. Older
-      Minecraft versions the Software offers (for example 1.12.2) are no longer updated by Mojang.
+   Many servers have rules about which mods and clients are permitted, and some use anticheat
+   systems. Complying with the rules of the servers you play on is your responsibility. We are not
+   responsible if a server or an anticheat system restricts, kicks or bans you; section 10 remains
+   unaffected. The same applies to mods you install for any game: which mods you use is your
+   decision.
 
 
-9. LIMITATION OF LIABILITY
+9. NO WARRANTY, AND SECURITY
 
-   a) The Software is given free of charge, as a gift. To the fullest extent the law allows,
-      FMG-PLUGINS, its developers and contributors are not liable for any damage, loss or cost of any
-      kind that arises from or in connection with installing, using, updating or not being able to
-      use the Software or its services, whether direct or indirect and whatever the legal reason -
-      including attacks on your PC or accounts, hacking, malware, account or identity theft, misuse
-      of data by third parties, lost or damaged worlds, saves, settings, mods, clips, coins or
-      cosmetics, bans by servers, anticheats or publishers, harm caused by content or services of
-      others, downtime or discontinuation, and indirect or consequential damage.
-   b) Under German law the givers of a free gift are liable only for intent and gross negligence
-      (Sections 521 and 524 BGB apply accordingly). Where the law does not allow liability to be
-      limited or excluded - in particular for intent and gross negligence, for injury to life, body
-      or health, under the Product Liability Act (Produkthaftungsgesetz), for fraudulently concealed
-      defects and under an express guarantee - the legal rules apply instead.
-   c) As far as the law allows, you hold FMG-PLUGINS and its developers harmless from claims of
-      third parties that arise because you broke this license, the Terms of Service or the law.
-
-
-10. ENDING AND CHANGES
-
-   a) If you break this license, your permission to use the Software ends automatically, and you
-      must delete your copies.
-   b) New versions of the Software may come with a new version of this license. The license that
-      comes with a release applies to that release; the launcher asks you to agree to it at every
-      installation and with every new version.
-   c) If any part of this license is found invalid, the rest still applies; the invalid part is
-      replaced by the valid rule that comes closest to what it meant.
-   d) This license is governed by the laws of the Federal Republic of Germany. This does not take
-      away any protection the consumer laws of your own country give you.
+   a) The Software is provided free of charge, "as is" and "as available". We do not promise that
+      it has particular properties, is suitable for a particular purpose, works without errors or
+      interruptions, is secure or free of harmful components, remains available, or does not
+      infringe rights of others. No statement in the Software, in patch notes or elsewhere is a
+      guarantee.
+   b) Because the Software is given free of charge, our responsibility for defects of quality and
+      defects of title follows the statutory rules for gratuitous contracts: we are responsible
+      for a defect only if we fraudulently concealed it (Sections 523, 524 and 600 of the German
+      Civil Code, applied accordingly). We are not obliged to provide maintenance, support or
+      updates.
+   c) The Software is a free hobby project of a private developer. It is not developed, tested or
+      operated to the standards of commercial or security software, and no security audit or
+      certification has been carried out. Using it - downloading, installing, updating, signing
+      in, installing mods and other content, joining servers - can expose your PC, your data and
+      your accounts to the risks described in section 10 of the Terms. You are responsible for
+      securing your PC, keeping backups and protecting your accounts.
+   d) Beta versions of the Software are for testing, may not work and may damage or lose data.
+      Older Minecraft versions the Software offers (for example 1.12.2) no longer receive updates
+      from Mojang.
+   e) Rights you have under mandatory law remain unaffected.
 
 
-Questions or permission requests: open an issue at https://github.com/mgnfrdnw-code/FMG-Client
+10. LIABILITY
+
+   a) We are liable without limitation for damage caused intentionally or by gross negligence; for
+      injury to life, body or health for which we are at fault; under the German Product Liability
+      Act (Produkthaftungsgesetz) where it applies; for defects we fraudulently concealed; and
+      within the scope of a guarantee, if we expressly gave one.
+   b) The Software is provided free of charge. In all cases not covered by a), our liability
+      follows the statutory standard for gratuitous contracts: we are liable only for intent and
+      gross negligence (Sections 521 and 599 of the German Civil Code, applied accordingly).
+   c) If, in an individual case, the standard in b) does not apply, we are liable for slight
+      negligence only where we breach an essential obligation of the Agreement - an obligation
+      whose fulfilment makes the proper performance of the Agreement possible in the first place
+      and on whose observance you may regularly rely - and then only up to the damage that was
+      foreseeable and typical for an agreement of this kind when it was concluded.
+   d) Section 12 d) to f) of the Terms (examples of excluded damage, loss of data, scope of the
+      limitations) applies to this License as well.
+   e) If a third party brings a claim against us because you culpably breached this License, you
+      will indemnify us as described in section 13 of the Terms.
+
+
+11. TERM AND TERMINATION
+
+   a) This License applies from the moment you accept it and for as long as you use the Software.
+   b) You may end it at any time by ceasing to use the Software and deleting all copies.
+   c) The licence in section 2 ends automatically, without notice, if you breach section 3. We may
+      also end it by notice if you otherwise breach the Agreement more than insignificantly. When
+      it ends you must stop using the Software and delete all copies.
+   d) Sections 1, 3, 6, 7 and 9 to 12 continue to apply after the License has ended.
+
+
+12. FINAL PROVISIONS
+
+   a) New versions of the Software may come with a new version of this License. The License
+      delivered with a release applies to that release and becomes binding when you accept it on
+      the launcher's agreement screen.
+   b) This License is governed by the laws of the Federal Republic of Germany, excluding the UN
+      Convention on Contracts for the International Sale of Goods. If you are a consumer with your
+      habitual residence in another country, you additionally keep the protection of those
+      provisions of your country's law that cannot be derogated from by agreement.
+   c) If a provision of this License is or becomes invalid or unenforceable in whole or in part,
+      the remaining provisions stay in force. The invalid provision is replaced by the applicable
+      statutory rule.
+   d) This License is written in English. A translation, if one is provided, is for convenience
+      only; the English version prevails.
+
+
+Questions and permission requests: mgn.frd.nw@gmail.com
