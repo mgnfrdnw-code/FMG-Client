@@ -2,3 +2,5 @@
 The official FMG-Client GitHub Repo
 
 FOR QUESTIONS OR INQUIRIES VIEW CONTACT INFORMATION ON MY GITHUB PAGE.
+
+Please thoroughly read through our Terms of Service and License notices before using our products.
