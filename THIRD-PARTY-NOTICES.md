@@ -149,24 +149,13 @@ installed without your click.
 
 | Mod | Made by | Licence | Source |
 | --- | --- | --- | --- |
-| BetterHurtCam | uku | MIT | https://github.com/uku3lig/betterhurtcam |
-| BetterShields | uku | MPL-2.0 | https://github.com/uku3lig/bettershields |
-| CookeyMod | RizeCookey | CC0-1.0 | https://github.com/rizecookey/CookeyMod |
 | Inventory HUD+ | DmitryLovin | All Rights Reserved | https://modrinth.com/mod/inventory-hud-forge |
-| Marlow's Crystal Optimizer | Bram, Marlow | MIT | https://github.com/Bram1903/MarlowsCrystalOptimizer |
 | Mod Menu | Prospector, haykam821, gniftygnome, TerraformersMC | MIT | https://github.com/TerraformersMC/ModMenu |
-| Shield Fixes | Walksy | MIT | https://github.com/Walksy/ShieldFixes |
-| Shield Status | Walksy | MIT | https://github.com/Walksy/ShieldStatus |
 | Simple Voice Chat | Max Henkel | All Rights Reserved | https://github.com/henkelmax/simple-voice-chat |
-| TierTagger | uku, netiyiy (original creator) | MPL-2.0 | https://github.com/mctiers-dev/TierTagger |
 | Toggle Toggle Sprint | celeste | zlib | https://codeberg.org/celestialfault/toggle-toggle-sprint |
-| TotemCounter | uku | MIT | https://github.com/uku3lig/totemcounter |
-| uku's Armor HUD | BerdinskiyBear, uku | MIT | https://github.com/uku3lig/armor-hud |
-| Zoomify | isXander | LGPL-3.0-or-later | https://github.com/isXander/Zoomify |
 
-Libraries these mods may bring along from Modrinth: Cloth Config (shedaniel, LGPL-3.0), Fabric
-Language Kotlin (FabricMC, Apache-2.0), Placeholder API (Patbox, LGPL-3.0), ukulib (uku, MPL-2.0),
-Walksy Lib (Walksy, MIT), YetAnotherConfigLib (isXander, LGPL-3.0-or-later).
+Libraries these mods may bring along from Modrinth (their authors' own licences apply), for example
+Cloth Config (shedaniel, LGPL-3.0) or YetAnotherConfigLib (isXander, LGPL-3.0-or-later).
 
 "All Rights Reserved" means the author has not given anyone permission to pass on copies. FMG Client
 does not pass on copies of these mods: the file you install comes from the author's own Modrinth
@@ -178,12 +167,12 @@ if none exists yet), that settings file comes from FMG Client; the mod does not.
 ## 8. Sounds
 
 - The sounds of emotes, of the launcher's backgrounds and of the games were made for FMG Client and
-  are part of it, with the two exceptions below.
-- **"FAH" and "TUNG TUNG" emotes:** these two emotes play short sound clips of widely shared
-  internet memes (about 1 second and 10 seconds). They were supplied by the publisher of FMG Client;
+  are part of it, with the exceptions below.
+- **"FAH", "TUNG TUNG" and "67" emotes:** these three emotes play short sound clips of widely shared
+  internet memes (about 1, 10 and 6 seconds). They were supplied by the publisher of FMG Client;
   their original creators are not known to FMG-PLUGINS and no licence was obtained. They are kept as
-  two separate files (`assets/fmgclient/sounds/emote/fah.ogg`, `tung_tung.ogg`) and are removed on
-  request of a rights holder (see "For rights holders").
+  separate files (`assets/fmgclient/sounds/emote/fah.ogg`, `tung_tung.ogg`, `six_seven.ogg`) and are
+  removed on request of a rights holder (see "For rights holders").
 - A sound file a player places in the `emote-sounds` folder replaces an emote's sound on that
   player's own PC only. Such files are not part of FMG Client and are never transmitted.
 
