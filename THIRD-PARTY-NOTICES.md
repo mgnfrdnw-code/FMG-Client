@@ -1,6 +1,6 @@
 # Third-party notices
 
-For FMG Launcher 1.6.0 / FMG Client 1.7.0.
+For FMG Launcher 1.6.2 / FMG Client 1.7.2.
 
 FMG Client works together with software and content made by other people. This file lists it, with
 its authors, licences and sources. None of it is made by FMG-PLUGINS and none of it is covered by the
@@ -59,11 +59,13 @@ Clips uses FFmpeg to record games and save clips as MP4, to trim them and for cl
 installer carries a small build made for FMG Client from the upstream sources - FFmpeg 8.1.2 with
 x264 0.165.3223, nv-codec-headers 12.1.14.0, oneVPL 2023.3.0, libogg 1.3.5 and libvorbis 1.3.7 -
 containing only what Clips and the launcher need (Ogg Vorbis is used to turn your own emote sounds
-into the format Minecraft plays). It differs from upstream in four places: a version-information
+into the format Minecraft plays). It differs from upstream in five places: a version-information
 resource; one log line in the screen capture (ddagrab) that says when its first frame was taken, to
 line the picture up with the sound; a precise timer in the screen capture, so frames are taken at
-even intervals; and one filter of our own, fmghdr (`vf_fmghdr.c`, published with the sources), that
-turns an HDR desktop into normal colours for HDR clips. It is not packed or compressed.
+even intervals; one filter of our own, fmghdr (`vf_fmghdr.c`, published with the sources), that
+turns an HDR desktop into normal colours for HDR clips; and the same kind of log line in the window
+capture (gfxcapture), which is built with Windows Runtime headers from mingw-w64 (public domain,
+published with the sources). It is not packed or compressed.
 
 - libogg and libvorbis: Copyright (c) Xiph.Org Foundation, **BSD-3-Clause**
   (https://xiph.org/downloads/). Their licence texts are part of the published sources.
