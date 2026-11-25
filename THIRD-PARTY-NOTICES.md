@@ -1,6 +1,6 @@
 # Third-party notices
 
-For FMG Launcher 1.6.2 / FMG Client 1.7.2.
+For FMG Launcher 1.6.3 / FMG Client 1.7.3.
 
 FMG Client works together with software and content made by other people. This file lists it, with
 its authors, licences and sources. None of it is made by FMG-PLUGINS and none of it is covered by the
@@ -151,10 +151,8 @@ installed without your click.
 
 | Mod | Made by | Licence | Source |
 | --- | --- | --- | --- |
-| Inventory HUD+ | DmitryLovin | All Rights Reserved | https://modrinth.com/mod/inventory-hud-forge |
 | Mod Menu | Prospector, haykam821, gniftygnome, TerraformersMC | MIT | https://github.com/TerraformersMC/ModMenu |
 | Simple Voice Chat | Max Henkel | All Rights Reserved | https://github.com/henkelmax/simple-voice-chat |
-| Toggle Toggle Sprint | celeste | zlib | https://codeberg.org/celestialfault/toggle-toggle-sprint |
 
 Libraries these mods may bring along from Modrinth (their authors' own licences apply), for example
 Cloth Config (shedaniel, LGPL-3.0) or YetAnotherConfigLib (isXander, LGPL-3.0-or-later).
@@ -163,8 +161,8 @@ Cloth Config (shedaniel, LGPL-3.0) or YetAnotherConfigLib (isXander, LGPL-3.0-or
 does not pass on copies of these mods: the file you install comes from the author's own Modrinth
 page. The same is true of every mod, modpack, pack and shader you install from the Add-Ons tab.
 
-Where FMG Client's installer writes a settings file for one of the mods in sections 6 and 7 (only
-if none exists yet), that settings file comes from FMG Client; the mod does not.
+Where FMG Client's installer writes a settings file for a mod (only if none exists yet), that
+settings file comes from FMG Client; the mod does not.
 
 ## 8. Sounds
 
