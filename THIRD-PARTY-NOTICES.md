@@ -1,6 +1,6 @@
 # Third-party notices
 
-For FMG Launcher 1.6.3 / FMG Client 1.7.3.
+For FMG Launcher 1.7.0 / FMG Client 1.8.0.
 
 FMG Client works together with software and content made by other people. This file lists it, with
 its authors, licences and sources. None of it is made by FMG-PLUGINS and none of it is covered by the
@@ -208,6 +208,12 @@ settings file comes from FMG Client; the mod does not.
 - **Saturation** (an FMG Client mod) shows hunger and saturation the way **AppleSkin** by squeek502
   (https://github.com/squeek502/AppleSkin, released into the public domain under the Unlicense)
   made familiar. FMG Client's code and pictures are its own; no file of AppleSkin is included.
+- **Custom Crosshair**'s "Crosshair Indicator" target indicator works like the mod **Crosshair Indicator** by
+  SwimmingDog1 (MGC8) (released into the public domain under **CC0-1.0**): when the crosshair is over a player, the same
+  four corner brackets show around it. Its 15x15 picture is used as it is. FMG Client's code is its own. Thanks.
+- The **Custom Crosshair** editor reads and writes the crosshair share codes Lunar Client's crosshair mod uses
+  ("LCCH-..."), so a crosshair can be moved between the two. No code, picture or preset of Lunar Client is included -
+  the presets are FMG Client's own.
 
 ## 11. Names and trademarks
 

@@ -1,5 +1,5 @@
 FMG Client Terms of Service and Privacy Notice
-Version 1.7, 13 November 2026
+Version 1.8, 26 November 2026
 
 This document has two parts. Part A (sections 1 to 17) contains the Terms of Service: the conditions
 under which FMG Client may be used. Part B (sections 18 to 28) is the Privacy Notice: it explains
@@ -108,8 +108,9 @@ PART A - TERMS OF SERVICE
       No money or anything of monetary value is ever staked, won or lost. The games are
       entertainment and not gambling for money. Limits on bets and on daily winnings apply as shown
       in the launcher.
-   c) Perks are obtained with coins and run for the number of days shown; obtaining a perk that is
-      still running extends it, up to the maximum shown.
+   c) Perks are obtained with coins by FMG+ members (g) and run for the number of days shown;
+      obtaining a perk that is still running extends it, up to the maximum shown. A perk that was
+      already running when it became part of FMG+ runs until it ends.
    d) Cosmetics, emotes, pets and badges are obtained with coins (some only during a seasonal event)
       and are visible to other FMG Client players. Emotes may play a sound that you and FMG Client
       players near you hear.
@@ -123,6 +124,17 @@ PART A - TERMS OF SERVICE
       seasons, limits and game rules at any time, and coins and items may be lost when the service
       changes or ends (section 14). Because they have no monetary value and were not paid for, no
       compensation is owed for such changes or losses; section 12 remains unaffected.
+   g) FMG+. FMG+ is a membership with the benefits described in the launcher (for example Dev
+      Insights, the Feedback Portal, items only members can use, a lower coin price in the store, a
+      launcher soundtrack and badge, and more friend slots). FMG+ cannot be bought yet ("coming
+      soon"); at present administrators give it free of charge, for a set time or without an end
+      date, and may end a membership they gave. Before FMG+ can be bought, you will be shown the
+      price (planned: 9.99 EUR a month or 99.99 EUR a year), the payment provider, how the
+      membership renews and how it is cancelled, and your statutory right of withdrawal, and nothing
+      is bought unless you agree to those terms separately. A cancelled membership stays active
+      until the end of the period already running. Items only members can use can be used while the
+      membership is active and are hidden when it ends; the lower price applies to coin prices only.
+      The benefits may change; section 14 applies.
 
 
 7. CONTENT YOU SHOW TO OTHERS, AND MODERATION
@@ -151,6 +163,20 @@ PART A - TERMS OF SERVICE
       is removed, and the person reporting is informed of the outcome if they gave a contact.
    g) Skins are changed with Mojang directly, as in the official launcher; Mojang's own rules for
       skins apply in addition.
+   h) FMG Friends. You can add other FMG Client players as friends, send them messages and see
+      whether they are online. Messages can only be sent between friends, are limited in length and
+      number, and are deleted after 30 days. Your status (online, away, do not disturb, invisible)
+      and what you are doing (in the launcher; playing FMG Client, with its version and - for public
+      servers only - the server's name; playing S.T.A.L.K.E.R. 2) are shown to the people you choose
+      in the settings: everyone who can see you, only your friends, or nobody. "Invisible" shows you
+      as offline. You can block a player: they are removed from your friends and can no longer send
+      you requests or messages. You can report a message or a player's name to the administrators;
+      a report includes a copy of the reported message. Messages must respect b).
+   i) Discover. In FMG Client, the Discover tab shows the FMG Client players on the same Minecraft
+      server - their names and, for members, the FMG+ badge. You are shown there unless you switch
+      "Show me in Discover" off or are invisible.
+   j) Feedback Portal. FMG+ members can vote on posts written by the administrators and add a short
+      note. Administrators see who voted how and the notes.
 
 
 8. CLIPS: RECORDING AND SHARING
@@ -384,8 +410,10 @@ and Section 25 of the German Telecommunications Digital Services Data Protection
    c) Emotes and the live room. While you are on a server, FMG Client keeps a connection to the FMG
       Cosmetics server's "live room" for that server. The room is identified only by a hash of the
       server's address. It passes on to the FMG Client players in the same room which emote you
-      start, stop or join. This is not stored, and nothing is sent to the Minecraft server. Legal
-      basis: Art. 6 (1) (b) GDPR.
+      start, stop or join, and - when you hold a shield that another player dropped - whose shield
+      it is, so that everyone sees it with the same design. This is not stored (only the number of
+      emotes you played this year, for REWIND - see n), and nothing is sent to the Minecraft server.
+      Legal basis: Art. 6 (1) (b) GDPR.
    d) Clip links (section 8 c). Data: the clip you upload, who shared it, its size and the time.
       Recipients: anyone who has the link. Legal basis: Art. 6 (1) (b) GDPR. Where a public file
       host is used, that host is an independent controller for the upload.
@@ -410,10 +438,32 @@ and Section 25 of the German Telecommunications Digital Services Data Protection
       you tell us in order to answer and to handle your request. Legal basis: Art. 6 (1) (b) or
       (f) GDPR, and Art. 6 (1) (c) GDPR where we are legally obliged to act on a request.
    j) Who can see it internally. Administrators of FMG Client can see names, coins, what an
-      account owns, when it last played, whether it is banned from cosmetics, its telemetry
-      (section 21) and its security log - nothing else.
+      account owns, when it last played, whether it is banned from cosmetics, its FMG+ membership,
+      reports made about it (with the reported message), its votes and notes in the Feedback Portal,
+      its telemetry (section 21) and its security log - nothing else. Administrators do not read
+      messages between friends, except a message that was reported to them.
    k) Sources. Your Minecraft name, UUID and certificate originate from Mojang and are transmitted
       by your launcher at sign-in. All other data comes from you or from your use of FMG Client.
+   l) FMG Friends and Discover (section 7 h, i). Data: your friend list and requests, the players
+      you blocked, your messages (sender, recipient, text, time, whether read), your FMG Friends
+      settings, your current status and activity, and reports you make or that concern you (with a
+      copy of a reported message). Status and activity are only held in the server's memory while
+      your launcher or game is connected; they are not stored. Recipients: your friends (messages;
+      status and activity as you choose); FMG Client players on the same Minecraft server (Discover:
+      your name and FMG+ badge, unless switched off or invisible); administrators (reports).
+      Purpose: the friends, messages and Discover functions you use, and moderation. Legal basis:
+      Art. 6 (1) (b) GDPR; for reports and moderation Art. 6 (1) (f) GDPR (protecting players, in
+      particular minors).
+   m) FMG+, the Feedback Portal and Dev Insights (sections 6 g, 7 j). Data: your membership (plan,
+      start, end, renewal, who gave it) and its history (started, renewed, cancelled, ended, plan
+      changed, Discover priority switched, Dev Insights read, votes), and your votes and notes in the
+      Feedback Portal. Purpose: providing FMG+ and its benefits, and counting how FMG+ is used, in
+      total, to improve it. Legal basis: Art. 6 (1) (b) GDPR; for the counts Art. 6 (1) (f) GDPR.
+   n) REWIND. In December the launcher shows you your year with FMG Client, made from the data
+      described in this section (coins, games, items, friends made, messages sent, emotes played,
+      clips shared, months of FMG+; hours played only when telemetry is on). For it the server
+      counts, per year, the friends you made, the messages you sent and the emotes you played. Only
+      you see your REWIND. Legal basis: Art. 6 (1) (b) GDPR.
 
 
 21. TELEMETRY ("SHARE TELEMETRY DATA")
@@ -569,6 +619,12 @@ and Section 25 of the German Telecommunications Digital Services Data Protection
    - Perks: until they run out. Notifications: the most recent 50.
    - Clips shared by link: 72 hours.
    - Live room: not stored.
+   - Friend list, blocked players and FMG Friends settings: for as long as you use FMG Cosmetics.
+   - Messages between friends: 30 days. Status and activity: not stored.
+   - Reports: until they have been dealt with, then one year.
+   - FMG+ membership and its history: for as long as you use FMG Cosmetics. Feedback Portal votes
+     and notes: until the post is deleted.
+   - REWIND's yearly counts: until the end of the year they belong to.
    - Security log: 90 days.
    - Telemetry: events (sessions, crashes, servers, frame rates, errors) 90 days; the details of
      an installation until 120 days after its last report; daily totals for all installations
